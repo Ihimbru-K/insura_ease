@@ -42,7 +42,7 @@ class _SubscriptionListScreenState extends State<SubscriptionListScreen> {
                 return ListTile(
                   title: Text(subscription.productId), // Replace with product name if available
                   subtitle: Text('Start: ${subscription.startDate}\nEnd: ${subscription.endDate}'),
-                  trailing: Text('\$${subscription.totalAmount.toStringAsFixed(2)}'),
+                  trailing: Text('\$${subscription.totalAmount}'),
                 );
               },
             );
