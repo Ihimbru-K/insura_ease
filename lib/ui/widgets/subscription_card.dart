@@ -15,8 +15,8 @@ class SubscriptionCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text('User ID: ${subscription.userId}'),
-            Text('Start Date: ${subscription.startDate.toLocal()}'),
-            Text('End Date: ${subscription.endDate.toLocal()}'),
+           // Text('Start Date: ${subscription.startDate.toLocal()}'),
+          //  Text('End Date: ${subscription.endDate.toLocal()}'),
           ],
         ),
         trailing: Text('\$${subscription.totalAmount}'),
